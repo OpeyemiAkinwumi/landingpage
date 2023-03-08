@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce landing page</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navitem">
+            <img src="closetoggle.svg" alt="" width="32.4px" height="35.8px" class="logo" id="close">            
+            <img src="menutoggle.svg" alt="" width="32.4px" height="35.8px" class="logo" id="open">  
+    
+                <ul class="links">
+                    <li class="mainlink"><a  href="#" class="thelink">HOME</a></li>
+                    <li class="mainlink"><a href="#" class="thelink">PRODUCT</a></li>
+                    <li class="mainlink"><a href="#" class="thelink">ABOUT</a></li>
+                    <li class="mainlink"><a href="#" class="thelink">SUPPORT</a></li>
+                </ul>
+            <div class="icon">
+                <img src="search.svg" alt="" class="image1">
+                <div class="cart row">
+                    <img src="cart.svg" alt="" class="image2">
+                </div>
+            </div>
+        </div>        
+    </div>
+
+
+    <!--landing Page-->
+    <div class="main_page">
+        <div class="text">
+            <h1 class="text1">Always <br> Be Your <br> Self</h1>
+            <h2 class="text2"><span class="ene">Energy</span><span class="drink"> Drink</span></h2>
+            <h3 class="text3">Total order: <span class="dollar">$</span><span class="price">12</span><span class="dollar">.00</span></h3>
+
+            <div class="choose">
+                <p class="yours">Choose Your</p>
+                <div class="arrow">
+                    <div class="arrow1 row" onclick="decrease()">
+                        <p class="less">&lt</p>
+                    </div>
+                    <p class="amount">1</p>
+                    <div class="arrow2 row" onclick="increase()">
+                        <p class="great">&gt</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buy_now">
+                <div class="bag">
+                    <img src="bag.svg" alt="" class="bag_icon">
+                </div>
+                <p class="buy">Buy Now</p>
+            </div>
+        </div>
+
+
+        <div class="circle">
+            <div class="small_circle">
+
+            </div>
+            <img src="web1.png" alt="" class="can">
+
+            <div class="original">
+                <h2 class="prod"><span class="one">100%</span> <br>
+                Original <br> product</h2>
+            </div>
+            <div class="cont">
+                <div class="classic">
+                    <img src="ash.png" alt="" class="ash">
+    
+                <div class="classic_drinks">
+                    <h3 class="classcla">Classic Drinks</h3>
+                    <p class="para">For Traditionals who are!</p>
+                </div> 
+            </div>
+            <div class="cont-two">
+                <div class="best">
+                    <img src="web3.png" alt="" class="seven">
+                <div class="best_drink">
+                    <h3 class="order">Best Drinks</h3>
+                    <p class="para2">The things you can order!</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- 3rd Div -->
+        <div class="button">
+            <div class="btn1 but" onclick="toxic()">
+                <img src="asset 2.png" alt="icon" class="icon">
+            </div>
+            <div class="btn2 but">
+                <img src="Asset 3.png" alt="icon" class="icon" onclick="sweet()">
+            </div>
+            <div class="btn3 but">
+                <img src="Asset 6.png" alt="icon" class="icon" onclick="energy()">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>

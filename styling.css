@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.navitem {
+    width: 80%;
+    height: 50px;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#close{
+    display: none;
+}
+#open{
+    opacity: 0;
+}
+
+
+.links {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+    /* background-color: red; */
+}
+
+.mainlink {
+    padding: 1.5rem;
+    list-style: none;
+}
+.mainlink:hover{
+    opacity: 0.7;
+    text-decoration: underline rgb(113, 117, 118);
+}
+.thelink {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.cart {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(15, 17, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+
+
+/* Landing page */
+.main_page {
+    width: 80%;
+    height: 80vh;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.text {
+    width: 300px;
+    height: 80vh;
+}
+.text1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.text2{
+    color: rgb(113, 117, 118);
+    font-weight: lighter;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.drink{
+    color: rgb(208, 221, 141);
+}
+.text3{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: rgb(189, 200, 206);
+    margin-bottom: 10px;
+}
+.price{
+    color: black;
+    font-weight: bold;
+    transition: all 1s ease-in;
+}
+.dollar{
+    color: black;
+    font-weight: bold;
+}
+.choose {
+    width: 120px;
+    height: 80px;
+}
+.yours{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.amount{
+    font-weight: bold;
+    font-size: large;
+}
+.arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow1 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(15, 17, 56);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.less{
+    color: white;
+    transform: rotate(-90deg);
+    font-size: small;
+    font-weight: lighter;
+}
+.arrow2 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(15, 17, 56);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row:hover {
+    background-color: rgb(35, 37, 92);
+    cursor: pointer;
+}
+.row:active{
+    background-color: rgb(219, 219, 224);
+}
+
+.great{
+    color: white;
+    transform: rotate(-90deg);
+    font-size: small;
+    font-weight: lighter;
+}
+
+.buy_now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 140px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+.bag {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: grid;
+    place-content: center;
+    background-color: rgb(234, 207, 130);
+    position: absolute;
+    left: 5px;
+}
+.buy{
+    font-size: smaller;
+    color:white;
+    margin-left: 20px;
+}
+
+/* Second Div */
+
+.circle {
+    width: 500px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    position: relative;
+    /* background-color: red; */
+}
+.small_circle{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    background-color: rgb(189, 200, 206);
+}
+.can {
+    width: 577.2px;
+    height: 480px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin-left: -70px;
+}
+.original {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    bottom: 90px;
+    display: grid;
+    place-content: center;
+    transform: rotate(-30deg);
+    box-shadow: 1px 1px 5px 0.2px rgb(82, 79, 79);
+}
+.prod{
+    font-size: small;
+    text-align: center;
+    font-weight: bolder;
+}
+.one{
+    color: rgb(202, 121, 58);
+}
+.cont{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+.classic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    position: relative;
+    box-shadow: -3px 3px 10px 1px rgb(161, 161, 161);
+}
+
+.ash{
+    position: absolute;
+    left: 20px;
+    width: 28.98px;
+    height: 45.84px;
+}
+.classic_drinks{
+    position: absolute;
+    right: 20px;
+}
+.classcla{
+    color: black;
+    font-size: small;
+    margin-bottom: 3px;
+}
+.para {
+    font-size: x-small;
+    color: rgb(172, 182, 187);
+    letter-spacing: 0.3px;
+}
+.cont-two{
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+}
+.best{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    position: relative;
+    box-shadow: 3px 3px 10px 1px rgb(161, 161, 161);
+}
+.seven{
+    width: 56.25px;
+    height: 37.5px;
+    position: absolute;
+    left: 5px;
+}
+.best_drink{
+    position: absolute;
+    right: 15px;
+}
+.order{
+    color: black;
+    font-size: small;
+    margin-bottom: 3px;
+}
+.para2 {
+    font-size: x-small;
+    color: rgb(172, 182, 187);
+    letter-spacing: 0.3px;
+}
+
+
+/* 3rd div */
+.button {
+    width: 200px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.but {
+  width: 200px;
+  height: 150px;
+  display: grid;
+  place-content: center;
+}
+.but:hover {
+    filter: saturate(0);
+}
+.but:active{
+    filter: sepia(100);
+}
+.icon{
+    width: 114.3px;
+    height: 154px;
+}
+
+/* MEDIA SCREENS FOR MEDIUM AND SMALL */
+
+@media screen and (max-width: 1024px) {
+    .navbar{
+        margin: 5px;
+        
+    }
+    .navitem{
+        width: 92%;
+        margin: 0 4%;
+        position: relative;
+    }
+    .links{
+        position: absolute;
+        top: 310%;
+        left: 0;
+        margin: 0;
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+        display: none;
+        /* width: 6rem; */
+    }
+    .mainlink{
+        padding: 0;
+        width: 100%;
+        box-shadow: 2rem 4rem 4rem rgba(0, 0, 0, 0.2);
+    }
+    .mainlink:hover{
+        text-decoration: none;
+    }
+    .thelink{
+        background-color: rgba(0, 0, 0, 0.881);
+        color: white;
+        height: 4rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem 0 1rem;
+        justify-content: center;
+        
+        border-top: 1px solid rgba(255, 255, 255, 0.612);
+    }
+    .thelink:hover {
+        background-color: rgb(172, 182, 187);
+        color: #000;
+    }
+    .logo{
+        display: inline-block;
+        align-items: center;
+        cursor: pointer;
+    }
+    .close{
+        display: none;
+    }
+    #open {
+        opacity: 1;
+    }
+    
+    .main_page {
+        width: 92%;
+        margin: 0 4%;
+    }
+
+    .button {
+        flex-direction: row;
+        width: 80vh;
+        height: 200px
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .main_page{
+        display: block;
+        /* height: 50vh; */
+    }
+    .text{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .text1 {
+    font-size: 4rem;
+    text-align: center;
+   }
+   .text2{
+    text-align: center;
+    margin-bottom: 10px;
+   }
+   .text3{
+    text-align: center;
+   }
+  .choose{
+    margin: 0 20% 0 35%;
+  }
+  .yours {
+    text-align: center;
+  }
+  .buy_now{
+    margin: 0 20% 0 33%;
+  }
+
+  .small_circle{
+    width: 300px;
+    height: 300px;
+  }
+  
+}
+
